@@ -1,1 +1,75 @@
 /*empty*/
+body {
+    font-family: arial;
+}
+
+.aller {
+    font-weight: bold;
+}
+
+#huvud {
+    height: 120px;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    padding-left: 20px;
+    margin-left: 2%;
+    margin-top: -64%;
+}
+
+#section1 {
+    padding: 20px;
+    margin: 2%;
+    background-color: black;
+    color: #000000;
+    border-color: black;
+    border: 4px dashed #ffffff;
+}
+
+#section2 {
+    padding: 20px;
+    margin: 2%;
+    padding: 20px;
+    margin: 2%;
+    border: 4px dashed #000000;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
+
+
+button {
+    margin-left: 2%;
+}
+
+div {
+    margin: 5px;
+    padding: 25px;
+ /*   float: left; */
+}
+
+#bild {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.box {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+}
