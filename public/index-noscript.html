@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <link rel="reset" type="text/css" href="reset.css">
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <title>Hamburger selector</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+   <section id="huvud">
+       <img src="https://media.goshopping.dk/media/45563/sundere-pommes-frites.jpg?width=780&aspectratio=2.4" id="bild">
+       <header>
+           <h1>Välkommen till BurgerOnline</h1>
+       </header>
+   </section>
+	<main>
+        <section id="section1">
+			<h2  style="color: white">Välj hamburgare</h2>
+            <p  style="color: white">Här kan du välja hamburgare</p>
+            <div class="wrapper">
+                <div class="box 1">
+                    <h3>Hamburgare 1</h3>
+                    <img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_101408/cf_259/hamburgare.jpg" alt="Hamburger 1" style="height:150px">
+                    <ul>
+                        <li>1500 kcal</li>
+                        <li>Extremt god</li>
+                        <li class="aller">Kan innehålla spår av <span id="allergy">mjölk</></li>
+                    </ul>
+                </div>
+                <div class="box 2">
+                    <h3>Hamburgare 2
+                    </h3>
+                    <img src="https://img.koket.se/standard-mega/akta-amerikansk-hamburgare.jpg" alt="Hamburger 2" style="height:150px">
+                    <ul>
+                        <li>500 kcal</li>
+                        <li>Väldigt tråkig</li>
+                        <li class="aller">Kan innehålla spår av <span id="allergy">gluten</></li>
+                    </ul>
+                </div>
+                <div class="box 3">
+                    <h3>Hamburgare 3
+                    </h3>
+                    <img src="https://folkofolk.se/sites/default/files/2021-08/klassisk-hamburgare_2.jpg" alt="Hamburger 3" style="height:150px">
+                    <ul>
+                        <li>2500 kcal</li>
+                        <li>Godaste hamburgaren</li>
+                        <li class="aller">Kan innehålla spår av <span id="allergy">laktos</></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+		<section style="clear:left" id="section2">
+			<h2>Kundinformation</h2>
+            <p>Här anger du viktig kundinformation</p>
+            <h>Leveransinformation</h>
+            <form>
+                <p>
+                    <label for="name">Fullständigt namn</label><br>
+                    <input type="text" id="name" name="na" required="required" placeholder="t.ex. Lukas Ernsund">
+                </p>
+                <p>
+                    <label for="email">E-post</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="t.ex. hej@gmail.com">
+                </p>
+                <p>
+                    <label for="street">Gatuadress</label><br>
+                    <input type="text" id="strees" name="ga" required="required" placeholder="t.ex. Trädgårdsgatan">
+                </p>
+                <p>
+                    <label for="house">Husnummer</label><br>
+                    <input type="number" id="house" name="hu" required="required" placeholder="t.ex. 17C">
+                </p>
+            </form>
+            <p>
+                <label for="payment">Välj betalsätt</label><br>
+                <select id="payment" name="rcp">
+                    <option>Bankkort</option>
+                    <option>Swish</option>
+                    <option>Faktura</option>
+                    <option>Klarna</option>
+                </select>
+            </p>
+            <h3>Ange kön</h3>
+            <p>
+                <input type="radio" id="gender" name="ge" required="required" checked="checked">
+                <label for="gender">Man</label>
+            </p>
+            <p>
+                <input type="radio" id="gender" name="ge" required="required">
+                <label for="gender">Kvinna</label>
+            </p>
+            <p>
+                <input type="radio" id="gender" name="ge" required="required">
+                <label for="gender">Vill ej ange</label>
+            </p>
+		</section>
+        <button type="submit">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Checkmark_green.svg/1200px-Checkmark_green.svg.png" style="height: 15px;">
+            Send Info
+        </button>
+	</main>
+    <hr>
+	<footer>
+        <p>&copy; 2021 Lukas Hamburgare</p>
+	</footer>
+   </body>
+</html>
