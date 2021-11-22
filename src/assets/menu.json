@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Barger",
+    "kCal": 300,
+    "lactose": true,
+    "gluten": false,
+    "picture": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/2:1/w_3756,h_1878,c_limit/Smashburger-recipe-120219.jpg"
+  },
+    {
+      "name": "Birger",
+      "kCal": 400,
+      "lactose": true,
+      "gluten": true,
+      "picture": "https://www.burgerdudes.se/wp-content/uploads/2021/01/moes_burger_flamin_moe_23sep21_med.jpg"
+    },
+      {
+        "name": "Berger",
+        "kCal": 500,
+        "lactose": false,
+        "gluten": false,
+        "picture": "https://www.max.se/globalassets/images/burgers/burgers-frisco-burger.png?width=1160&height=652"
+      }
+]
